@@ -1,0 +1,17 @@
+for full website vision, go to ./patchnotes/plan_4-18-2023.png
+
+1. navigation bar on top
+2. title with bot name in center of page
+3. couple of text boxes underneath the bot name
+
+Checklist:
+    1.
+        Confirmed? Y/N : Y
+        Done? Y/N : N
+    2.
+        Confirmed? Y/N : Y
+        Done? Y/N : N
+    3.
+        Confirmed? Y/N : Y
+        Done? Y/N : N
+    
