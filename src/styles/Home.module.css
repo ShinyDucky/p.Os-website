@@ -149,10 +149,11 @@
 }
 
 .errorsub {
-  position: fixed;
+  position: absolute;
   text-align: center;
   margin-left: 25%;
   margin-right: 25%;
+  margin-top: 25%;
   width: 50%;
   border: 3px solid green;
   padding: 10px;
@@ -166,6 +167,20 @@
   width: 50%;
   border: 3px solid green;
   padding: 10px;
+}
+
+.errorpic {
+  position: relative;
+  /* margin-left: auto;
+  margin-right: auto;
+  margin-top: 10%; */
+  /* width: 50%; */
+  border: 3px solid green;
+  padding: 10px;
+}
+
+.errorbkg {
+  background-color: darkgray;
 }
 
 /* Enable hover only on non-touch devices */
