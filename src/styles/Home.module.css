@@ -179,10 +179,6 @@
   padding: 10px;
 }
 
-.errorbkg {
-  background-color: darkgray;
-}
-
 /* Enable hover only on non-touch devices */
 @media (hover: hover) and (pointer: fine) {
   .card:hover {

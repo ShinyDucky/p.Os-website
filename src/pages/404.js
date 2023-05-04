@@ -2,6 +2,9 @@ import Link from 'next/link';
 import styles from '@/styles/Home.module.css'
 import Head from 'next/head'
 import Image from 'next/image'
+import { Inter } from 'next/font/google'
+
+const inter = Inter({ subsets: ['latin'] })
 
 const NotFoundPage = () => {
   return <>
@@ -9,7 +12,7 @@ const NotFoundPage = () => {
 <title>Error 404 - Page Not Found</title>
 <link rel="icon" href="/pirate-zip_pfp.ico"/>
 </Head>
-    <div1 className={styles.errorbkg}><div className={styles.errorhead}>
+    <div className={styles.errorhead}>
       <h1>Error 404 - Page Not Found</h1>
       {/* </div> */}
       <a href='/' target='_self'>
@@ -25,7 +28,6 @@ const NotFoundPage = () => {
                 priority
               />
 </div>
-</div1>
 </>
 }
 
