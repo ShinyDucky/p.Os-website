@@ -148,6 +148,26 @@
   border-radius: var(--border-radius);
 }
 
+.errorsub {
+  position: fixed;
+  text-align: center;
+  margin-left: 25%;
+  margin-right: 25%;
+  width: 50%;
+  border: 3px solid green;
+  padding: 10px;
+}
+
+.errorhead {
+  position: fixed;
+  text-align: center;
+  margin-left: 25%;
+  margin-right: 25%;
+  width: 50%;
+  border: 3px solid green;
+  padding: 10px;
+}
+
 /* Enable hover only on non-touch devices */
 @media (hover: hover) and (pointer: fine) {
   .card:hover {

@@ -1,13 +1,16 @@
 import Link from 'next/link';
+import styles from '@/styles/Home.module.css'
 
 const NotFoundPage = () => {
   return <>
-    <div>
-      <h1>404 - Page Not Found</h1><a href='/' target='_self'>
-      <div>return to main</div>
+    <div className={styles.errorhead}>
+      <h1>404 - Page Not Found</h1>
+      </div>
+      <a href='/' target='_self'>
+      <div className={styles.errorsub}>return to main</div>
       <link></link>
-      </a></div>
-  </>
+    </a>
+</>
 }
 
 export default NotFoundPage
