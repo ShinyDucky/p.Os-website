@@ -9,7 +9,8 @@ export default function Home() {
   return (
     <>
     <Head>
-      <title>p.OS</title>
+      <title>p.OS official website - a bot by pirate_zip</title>
+      <link rel="icon" href="/pirate-zip_pfp.ico"/>
     </Head>
     <main className={styles.main}>
       <a
@@ -20,6 +21,8 @@ export default function Home() {
         <p>Install p.OS</p>
       </div>
       </a>
+      </main>
+      <main className={styles.tempdescription}>
       <a
       href='/starter_index'
       target='_self'>

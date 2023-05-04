@@ -9,7 +9,8 @@ export default function Home() {
   return (
     <>
     <Head>
-      <title>p.OS</title>
+      <title>Add to server - p.OS</title>
+      <link rel="icon" href="/pirate-zip_pfp.ico"/>
     </Head>
     <main className={styles.installnotice}>
       <a
